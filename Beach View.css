@@ -1,0 +1,151 @@
+
+
+
+
+/* ------------------------ */
+
+body{
+    box-sizing: border-box;
+    background-image: url(https://images.pexels.com/photos/281184/pexels-photo-281184.jpeg?auto=compress&cs=tinysrgb&h=750);
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom:0%;
+}
+
+.wrapper{
+    display:grid;
+    grid-template-columns: 100%;
+    grid-row-gap: 10em;
+}
+
+
+wrapper > div{
+    background-color: whitesmoke;
+}
+
+/* designing the navbar */
+
+nav{
+    display:grid;
+    font-size: 2em;
+    background-color: whitesmoke;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    overflow: hidden;
+}
+
+li > a{
+    text-decoration: none;
+    color:black;
+}
+li{
+    flex-grow: 1;
+    margin-left: 90px;
+}
+
+/* designing the heading of the page */
+
+.heading{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+h2{
+    font-size: 4em;
+}
+
+.site{
+    font-size: 35px;
+}
+
+/* Designing of the picture */
+
+.picture{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 5em;
+    grid-row-gap: 1em;
+    background-color: whitesmoke;
+    padding:30px;
+}
+
+/* making the info class */
+.info{
+    background: rgb(54, 25, 25); 
+    background: rgba(54, 25, 25, .5);
+    /* margin-left: 30em;
+    margin-right: 30em;
+    padding:70px; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    width: 30%;
+    font-size: 17px;
+    padding:50px;
+}
+
+/* designing the trip class */
+
+.bottom {
+    display:grid;
+
+}
+
+.trip{
+    background-color: whitesmoke;
+    font-size: 50px;
+    text-align: center;
+    padding:20px;
+
+}
+.btn {
+    display: inline-block;
+    font-size: 36px;
+    padding: 12px 22px;
+    border-bottom: none;
+    border-radius: 5px;
+    color: #fff;
+    font-family: 'maple-web', 'Helvetica', arial, sans-serif;
+    font-size: 30px;
+    line-height: 1em;
+    font-weight: 500;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.25);
+    background: #f75728;
+}
+
+a{
+    text-decoration: none;
+    outline: none;
+}
+
+/*  
+
+button{
+    background-color:blue;
+    padding:10px;
+    margin-left: 10px;
+    padding-left: 10px;
+    color:white;
+}
+ */
+
+.footer{
+    background-color: #9B9797;
+    font-size: 30px;
+    padding:40px;
+    text-align: center;
+}
+
+/* ------------------------------------- */
+@media screen and (max-width: 580px) {
+   li {
+box-sizing: border-box;
+width:100%;
+padding:15px;
+    }
+}
